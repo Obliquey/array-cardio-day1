@@ -42,12 +42,22 @@ const totalYearsAlive = inventors.reduce((accumulator: number, currentValue: Inv
     return accumulator + age;
 }, 0);
 
-console.log("How many years did they live?:", totalYearsAlive);
+// console.log("How many years did they live?:", totalYearsAlive);
 
 // Sort the inventors by years lived
+const sortedByLifeLived: Inventor[] = inventors.sort((a:Inventor, b:Inventor): number => {
+    let ageA = (a.passed - a.year);
+    let ageB = (b.passed - b.year);
+    if(ageA > ageB){
+        return 1;
+    } else {
+        return -1;
+    }
+})
+console.log("Can we sort by how long they lived?:", sortedByLifeLived);
 
 // Create a list of Boulevards in Paris that contain 'de' anywhere in the name
 
 // sort the people alphebetically by last name
 
-// 
+//  
