@@ -25,7 +25,7 @@ console.log("Here's the inventors:", names);
 
 // .sort()
 // 3. Sort the inventors by birthdate, oldest to youngest
-inventors.sort((a, b) => )
+// inventors.sort((a, b) => )
 
 
 // .reduce()
