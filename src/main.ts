@@ -54,10 +54,10 @@ const sortedByLifeLived: Inventor[] = inventors.sort((a:Inventor, b:Inventor): n
         return -1;
     }
 })
-console.log("Can we sort by how long they lived?:", sortedByLifeLived);
+// console.log("Can we sort by how long they lived?:", sortedByLifeLived);
 
 // Create a list of Boulevards in Paris that contain 'de' anywhere in the name
 
 // sort the people alphebetically by last name
 
-//  
+//  https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
